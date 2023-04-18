@@ -62,7 +62,7 @@ public class ex4 {
         Boss boss = new Boss(bossName, bossSalary);
         System.out.println(boss.name + " earns: $" + boss.earnings());
 
-        scanner.nextLine(); // Clear the newline left by nextDouble()
+        scanner.nextLine(); 
 
         System.out.print("Enter piece worker name: ");
         String pieceWorkerName = scanner.nextLine();
@@ -71,7 +71,7 @@ public class ex4 {
         PieceWorker pieceWorker = new PieceWorker(pieceWorkerName, numProducts);
         System.out.println(pieceWorker.name + " earns: $" + pieceWorker.earnings());
 
-        scanner.nextLine(); // Clear the newline left by nextInt()
+        scanner.nextLine(); 
 
         System.out.print("Enter commission worker name: ");
         String commissionWorkerName = scanner.nextLine();

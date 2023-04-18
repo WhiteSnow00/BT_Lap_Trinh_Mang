@@ -110,7 +110,7 @@ public void timKiemTheoSoBaoDanh() {
         }
     }
 }
-public class Test {
+public class Bai3 {
 public static void main(String[] args) {
     TuyenSinh tuyenSinh = new TuyenSinh();
         Scanner sc = new Scanner(System.in);
