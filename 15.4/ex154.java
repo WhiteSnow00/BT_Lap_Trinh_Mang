@@ -5,7 +5,7 @@ public interface ic {
     public void display();
 }
 
-public class StudentAptech implements ex154 {
+public class StudentAptech implements ic {
     private String StuId;
     private String StuName;
     private String gender;
@@ -90,7 +90,7 @@ public class StudentAptech implements ex154 {
 }
 
 
-public class StudentMark implements ex154 {
+public class StudentMark implements ic {
     private String StuId;
     private String className;
     private String subjectName;
